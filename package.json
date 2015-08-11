@@ -1,0 +1,18 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install -g tsd@^0.6.0 typescript@^1.5.0-beta bower",
+    "watch": "tsc --watch -m commonjs -t es5 --experimentalDecorators --emitDecoratorMetadata src/app/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "Michi Kono <michikono@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  }
+}

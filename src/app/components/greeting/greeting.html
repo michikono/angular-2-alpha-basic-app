@@ -1,0 +1,5 @@
+<h1>Hello {{ name }}!</h1>
+<p>Do you like the word: <strong *ng-if="word">{{word}}</strong><em *ng-if="!word">[fetching...]</em>?</p>
+<button (click)="newWord()">Refresh</button>
+<button (click)="newWordWithDelay(1000)">Refresh w/ Delay</button>
+<p>Name: <input [(ng-model)]="name"/></p>

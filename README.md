@@ -6,4 +6,4 @@ incomplete for usage in a real project.
 
 To Install
 ==========
-Run `npm install`, `tsd install`, and `npm watch`
+Run `npm install`, `tsd install`, and `npm run watch`
